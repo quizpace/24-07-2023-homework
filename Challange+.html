@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<head>
+    <title>+Challange+</title>
+</head>
+<body>
+    <script>
+
+
+
+var a, b, c ;
+a = parseInt(prompt ("enter a number"));
+b = parseInt(prompt ("enter a number"));
+c = parseInt(prompt ("enter a number"));
+
+
+if (a > b && a > c && b > c) {
+
+    document.write(`<div style='color:green'> ${a} </div>  <div style='color:orange'> ${b} </div> <div style='color:pink'> ${c} </div>`);
+
+} else if (a === b && a > c) {
+
+    document.write(`<div style='color:green'> ${a} </div>  <div style='color:green'> ${b} </div> <div style='color:orange'> ${c} </div>`);
+
+} else if (a === b && a < c) {
+
+document.write(`<div style='color:green'> ${c} </div>  <div style='color:orange'> ${b} </div> <div style='color:pink'> ${a} </div>`);
+
+} else if (a > b && a > c && c > b) {
+
+document.write(`<div style='color:green'> ${a} </div>  <div style='color:orange'> ${c} </div> <div style='color:pink'> ${b} </div>`);
+
+} else if (b > a && b > c && a > c) {
+
+    document.write(`<div style='color:green'> ${b} </div>  <div style='color:orange'> ${a} </div> <div style='color:pink'> ${c} </div>`);
+
+} else if (b > a && b > c && b > c) {
+
+document.write(`<div style='color:green'> ${b} </div>  <div style='color:orange'> ${c} </div> <div style='color:pink'> ${a} </div>`);
+
+} else if (c > a && c > b && b > a) {
+
+    document.write(`<div style='color:green'> ${c} </div>  <div style='color:orange'> ${b} </div> <div style='color:pink'> ${a} </div>`);
+
+} else if (c > a && c > b && a > b) {
+
+document.write(`<div style='color:green'> ${c} </div>  <div style='color:orange'> ${a} </div> <div style='color:pink'> ${b} </div>`);
+
+} else if (c === b && c > a) {
+
+    document.write(`<div style='color:green'> ${c} </div>  <div style='color:green'> ${b} </div> <div style='color:orange'> ${a} </div>`);
+
+} else if (c === b && c < a) {
+
+document.write(`<div style='color:green'> ${a} </div>  <div style='color:orange'> ${b} </div> <div style='color:pink'> ${c} </div>`);
+
+} else if (a === c && a > b) {
+
+    document.write(`<div style='color:green'> ${a} </div>  <div style='color:green'> ${c} </div> <div style='color:orange'> ${b} </div>`);
+
+} else if (a === b && b === c) {
+
+    document.write(`<div style='color:green'> ${a} <br /> ${b} <br / > ${c} </div> `)
+
+} 
+
+
+
+</script>
+</body>
+</html>
